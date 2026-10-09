@@ -1,0 +1,80 @@
+{
+  "bundle_id": "20261009T131649Z",
+  "model_name": "Random Forest",
+  "representation": "original",
+  "decision_threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.7924528301886793,
+    "balanced_accuracy": 0.7923850574712643,
+    "precision_good": 0.8214285714285714,
+    "recall_good": 0.7931034482758621,
+    "f1_good": 0.8070175438596491,
+    "roc_auc": 0.849257662835249,
+    "average_precision": 0.871985154868205,
+    "brier_loss": 0.15790106085705335,
+    "log_loss": 0.4825028457924184
+  },
+  "confidence_intervals": [
+    {
+      "metric": "roc_auc",
+      "estimate": 0.849257662835249,
+      "lower_95": 0.8012765963046797,
+      "upper_95": 0.896759869776974
+    },
+    {
+      "metric": "average_precision",
+      "estimate": 0.871985154868205,
+      "lower_95": 0.8215428417916377,
+      "upper_95": 0.9180424488016566
+    },
+    {
+      "metric": "accuracy",
+      "estimate": 0.7924528301886793,
+      "lower_95": 0.7396825396825397,
+      "upper_95": 0.841625501698055
+    },
+    {
+      "metric": "balanced_accuracy",
+      "estimate": 0.7923850574712643,
+      "lower_95": 0.739403850167537,
+      "upper_95": 0.8426156246280021
+    },
+    {
+      "metric": "f1_good",
+      "estimate": 0.8070175438596491,
+      "lower_95": 0.746527069883339,
+      "upper_95": 0.8559972439802727
+    },
+    {
+      "metric": "brier_loss",
+      "estimate": 0.15790106085705335,
+      "lower_95": 0.1346353184298263,
+      "upper_95": 0.18034125473463952
+    }
+  ],
+  "confusion_matrix": [
+    [
+      114,
+      30
+    ],
+    [
+      36,
+      138
+    ]
+  ],
+  "holdout_rows": 318,
+  "holdout_profiles": 272,
+  "development_rows": 1281,
+  "development_profiles": 1087,
+  "best_cv_roc_auc": 0.8271177902455504,
+  "original_cv_roc_auc": 0.8271177902455504,
+  "ratios_cv_roc_auc": 0.8231007588859518,
+  "parameters": {
+    "class_weight": "balanced",
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 3
+  },
+  "evaluation_scope": "Reserved chemical-profile-group holdout; deployed model fitted on development rows only.",
+  "probability_note": "Forest probability estimates; separate probability calibration was not fitted."
+}

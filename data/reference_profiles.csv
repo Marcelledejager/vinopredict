@@ -1,0 +1,12 @@
+feature,label,unit,training_min,training_max,training_median,good_q25,good_median,good_q75,input_step,decimals
+fixed_acidity,Fixed acidity,g/L,4.6,15.9,7.9,7.1,8.0,9.6,0.1,2
+volatile_acidity,Volatile acidity,g/L,0.12,1.33,0.52,0.35,0.45,0.58,0.01,2
+citric_acid,Citric acid,g/L,0.0,1.0,0.26,0.12,0.31,0.46,0.01,2
+residual_sugar,Residual sugar,g/L,0.9,15.5,2.2,1.9,2.2,2.6,0.1,2
+chlorides,Chlorides,g/L,0.012,0.611,0.079,0.066,0.077,0.087,0.001,3
+free_sulfur_dioxide,Free sulfur dioxide,mg/L,1.0,66.0,14.0,7.0,13.0,21.0,0.1,2
+total_sulfur_dioxide,Total sulfur dioxide,mg/L,6.0,278.0,38.0,21.0,34.0,51.0,0.1,2
+density,Density,g/cm³,0.99007,1.00369,0.9968,0.9952,0.99642,0.99774,0.0001,4
+ph,pH,pH units,2.74,4.01,3.31,3.21,3.32,3.4,0.01,2
+sulphates,Sulphates,g/L,0.33,2.0,0.62,0.59,0.67,0.77,0.01,2
+alcohol,Alcohol,% vol,8.4,14.9,10.1,10.0,10.8,11.7,0.1,2

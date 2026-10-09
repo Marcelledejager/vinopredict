@@ -1,0 +1,78 @@
+{
+  "bundle_id": "20261009T131649Z",
+  "artifact_format_version": 1,
+  "created_utc": "2026-10-09T13:16:50.286186+00:00",
+  "python_version": "3.12.3",
+  "python_minor": "3.12",
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.1",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.4.2",
+    "shap": "0.53.0"
+  },
+  "streamlit_version": "1.65.0",
+  "source_csv_sha256": "c68c9b440a4c154b38141e4dfb6bd8ca664bc48cba5cb27dc5a64f05f75b03d2",
+  "training_scope": "development_only",
+  "random_state": 42,
+  "shap_background": "tree_path_dependent",
+  "files": {
+    "calibration_bins.csv": {
+      "sha256": "40143990fe83a89b7ace5273c6d826b8b87c8e7c9ab6b58c6e67a9e5376263f8",
+      "bytes": 440
+    },
+    "calibration_curve.csv": {
+      "sha256": "5cbd8bf1221985db239004cc2c344e79043f87270e92a4faec60a34985159d18",
+      "bytes": 278
+    },
+    "data_dictionary.csv": {
+      "sha256": "db5e0b414cb214068f61a69c58e2f2c262e2c62a24d0b7380d10ec30a9abe839",
+      "bytes": 863
+    },
+    "dataset_summary.json": {
+      "sha256": "007025ddeb0b8c93d658686b4b67a3a07776c15247ca5db04457c05f43d41ff7",
+      "bytes": 791
+    },
+    "evaluation.json": {
+      "sha256": "7561ddb5191c480a84101c4809f04f6a53c19c39e746386340dee82b1ddacdee",
+      "bytes": 2151
+    },
+    "example_inputs.csv": {
+      "sha256": "bacf5f2129ff89e441f96983597e862ec30dec2290a015fbd40d939f5c22d6e1",
+      "bytes": 406
+    },
+    "feature_importance.csv": {
+      "sha256": "48f3adeb0eb5c125faccf8510721a9d6fd9b3d6508e5cc9185cee651fdfcebec",
+      "bytes": 1293
+    },
+    "model.joblib": {
+      "sha256": "7b245b65bf19798d999ac888c859db26eb942faaa522126178c8a9c3ef25a1d6",
+      "bytes": 1685222
+    },
+    "model_comparison.csv": {
+      "sha256": "66465841a7071bf68b19ffc734e0aa43f09758ea85b0bc36395b81fce0deb458",
+      "bytes": 1788
+    },
+    "precision_recall_curve.csv": {
+      "sha256": "2d29aab634c1fc84d18895132e27f973822ff795b12dc1d2b83c573c913852c9",
+      "bytes": 14942
+    },
+    "reference_profiles.csv": {
+      "sha256": "37b9414163fe8b7b2c77a1ce3f56443414926c0dfdf9391a2c0349a502e7f4e0",
+      "bytes": 853
+    },
+    "requirements-app.txt": {
+      "sha256": "6ca76ec2c5856fbc3f782b23fa4c08f24416bdc60c6eb4943e1afc62e1fd31ac",
+      "bytes": 119
+    },
+    "roc_curve.csv": {
+      "sha256": "097fc4ecda7cf787ec7061be192fc5106e78f37d9f5db318f0c6229a67d0e41f",
+      "bytes": 7513
+    },
+    "schema.json": {
+      "sha256": "a419a5245762fdbcd5f920a43677fbd0efb7cf13fcfb834d45144d202827fcad",
+      "bytes": 3443
+    }
+  }
+}

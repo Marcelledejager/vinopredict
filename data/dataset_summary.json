@@ -1,0 +1,27 @@
+{
+  "source": "piyushgoyal443/red-wine-dataset",
+  "source_version": 1,
+  "rows": 1599,
+  "chemical_predictors": 11,
+  "missing_cells": 0,
+  "duplicate_measurement_and_quality_rows": 240,
+  "unique_chemical_profiles": 1359,
+  "profiles_with_conflicting_quality": 0,
+  "quality_min": 3,
+  "quality_max": 8,
+  "good_count": 855,
+  "bad_count": 744,
+  "good_percentage": 53.47091932457786,
+  "free_above_total_so2_rows": 0,
+  "bundle_id": "20261009T131649Z",
+  "quality_counts": {
+    "3": 10,
+    "4": 53,
+    "5": 681,
+    "6": 638,
+    "7": 199,
+    "8": 18
+  },
+  "citation": "Cortez et al. (2009), Modeling wine preferences by data mining from physicochemical properties. DOI: 10.1016/j.dss.2009.05.016.",
+  "source_url": "https://www.kaggle.com/datasets/piyushgoyal443/red-wine-dataset"
+}

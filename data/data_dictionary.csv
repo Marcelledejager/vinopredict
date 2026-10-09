@@ -1,0 +1,14 @@
+feature,label,unit,description
+fixed_acidity,Fixed acidity,g/L,"Non-volatile acids, expressed as tartaric acid"
+volatile_acidity,Volatile acidity,g/L,"Volatile acids, expressed as acetic acid"
+citric_acid,Citric acid,g/L,Citric acid concentration
+residual_sugar,Residual sugar,g/L,Sugar remaining after fermentation
+chlorides,Chlorides,g/L,"Salt content, expressed as sodium chloride"
+free_sulfur_dioxide,Free sulfur dioxide,mg/L,Free sulfur dioxide concentration
+total_sulfur_dioxide,Total sulfur dioxide,mg/L,Free plus bound sulfur dioxide
+density,Density,g/cm³,Wine density
+ph,pH,pH units,Acidity on the pH scale
+sulphates,Sulphates,g/L,"Sulphates, expressed as potassium sulphate"
+alcohol,Alcohol,% vol,Alcohol by volume
+quality,Sensory quality,score,Original ordered sensory score; not an input
+good,Good wine target,0 or 1,1 when quality >= 6; otherwise 0

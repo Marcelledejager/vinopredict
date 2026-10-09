@@ -1,0 +1,153 @@
+{
+  "bundle_id": "20261009T131649Z",
+  "artifact_format_version": 1,
+  "inputs": [
+    {
+      "name": "fixed_acidity",
+      "label": "Fixed acidity",
+      "unit": "g/L",
+      "default": 7.9,
+      "step": 0.1,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Non-volatile acids, expressed as tartaric acid"
+    },
+    {
+      "name": "volatile_acidity",
+      "label": "Volatile acidity",
+      "unit": "g/L",
+      "default": 0.52,
+      "step": 0.01,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Volatile acids, expressed as acetic acid"
+    },
+    {
+      "name": "citric_acid",
+      "label": "Citric acid",
+      "unit": "g/L",
+      "default": 0.26,
+      "step": 0.01,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Citric acid concentration"
+    },
+    {
+      "name": "residual_sugar",
+      "label": "Residual sugar",
+      "unit": "g/L",
+      "default": 2.2,
+      "step": 0.1,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Sugar remaining after fermentation"
+    },
+    {
+      "name": "chlorides",
+      "label": "Chlorides",
+      "unit": "g/L",
+      "default": 0.079,
+      "step": 0.001,
+      "decimals": 3,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Salt content, expressed as sodium chloride"
+    },
+    {
+      "name": "free_sulfur_dioxide",
+      "label": "Free sulfur dioxide",
+      "unit": "mg/L",
+      "default": 14.0,
+      "step": 0.1,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Free sulfur dioxide concentration"
+    },
+    {
+      "name": "total_sulfur_dioxide",
+      "label": "Total sulfur dioxide",
+      "unit": "mg/L",
+      "default": 38.0,
+      "step": 0.1,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Free plus bound sulfur dioxide"
+    },
+    {
+      "name": "density",
+      "label": "Density",
+      "unit": "g/cm\u00b3",
+      "default": 0.9968,
+      "step": 0.0001,
+      "decimals": 4,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Wine density"
+    },
+    {
+      "name": "ph",
+      "label": "pH",
+      "unit": "pH units",
+      "default": 3.31,
+      "step": 0.01,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": 14.0,
+      "description": "Acidity on the pH scale"
+    },
+    {
+      "name": "sulphates",
+      "label": "Sulphates",
+      "unit": "g/L",
+      "default": 0.62,
+      "step": 0.01,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": null,
+      "description": "Sulphates, expressed as potassium sulphate"
+    },
+    {
+      "name": "alcohol",
+      "label": "Alcohol",
+      "unit": "% vol",
+      "default": 10.1,
+      "step": 0.1,
+      "decimals": 2,
+      "minimum": 0.0,
+      "maximum": 100.0,
+      "description": "Alcohol by volume"
+    }
+  ],
+  "model_features": [
+    "fixed_acidity",
+    "volatile_acidity",
+    "citric_acid",
+    "residual_sugar",
+    "chlorides",
+    "free_sulfur_dioxide",
+    "total_sulfur_dioxide",
+    "density",
+    "ph",
+    "sulphates",
+    "alcohol"
+  ],
+  "representation": "original",
+  "ratio_epsilon": 1e-06,
+  "target": {
+    "name": "good",
+    "quality_cutoff": 6,
+    "positive_class": 1,
+    "threshold": 0.5
+  },
+  "brand": {
+    "maroon": "#58181F",
+    "wine": "#9C4B52",
+    "cream": "#FAF6F3"
+  }
+}
